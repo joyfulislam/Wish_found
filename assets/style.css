@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@900&family=Montserrat&display=swap');
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 
 p{
     font-family: 'Montserrat', sans-serif;
@@ -14,3 +16,26 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
 }
 
+#button:hover {
+    background-color: #863bae !important;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.color:hover{
+    color: #f89d35 ;
+}
+
+
+.thumnail{
+    background-image: url('assets/image/3.jpg');
+    height: 800px;
+    width: auto;
+}
