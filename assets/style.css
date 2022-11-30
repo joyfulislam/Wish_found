@@ -29,8 +29,17 @@ a{
     color: #000;
 }
 
+a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
 .color:hover{
     color: #f89d35 ;
+}
+
+.bgcolor:hover{
+    background-color: #f89d35 ;
 }
 
 
@@ -38,4 +47,9 @@ a{
     background-image: url('assets/image/3.jpg');
     height: 800px;
     width: auto;
+}
+
+.foot:hover{
+    text-decoration: underline;
+    color: #fff;
 }
